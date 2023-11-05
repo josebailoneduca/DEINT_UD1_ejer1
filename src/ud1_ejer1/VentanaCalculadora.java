@@ -14,10 +14,9 @@ package ud1_ejer1;
  * @author Jose Javier Bailon Ortiz
  */
 public class VentanaCalculadora extends javax.swing.JFrame {
-    /**
-     * Atributos
-     */
-    
+
+
+    //ATRIBUTOS
     /**
      * Primer operando de la operacion
      */
@@ -30,7 +29,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
     
     
     /**
-     * Creates new form Calculadora
+     * Constructor
      */
     public VentanaCalculadora() {
         initComponents();
@@ -170,7 +169,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
     }
     
     /**
-     * Recoge los datos introducidos
+     * Recoge los datos introducidos en los campos
      * 
      * @return  true si los ha recogido correctamente, false si ha habido algun error
      */
